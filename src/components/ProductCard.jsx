@@ -8,7 +8,7 @@ export default function ProductCard({ product }) {
   const wishlisted = isWishlisted(product.id);
 
   return (
-    <div className="group overflow-hidden rounded-2xl border border-line bg-white">
+   <div className="group overflow-hidden rounded-2xl border border-line bg-surface">
       <Link to={`/products/${product.id}`}>
         <div className="relative aspect-[4/5] overflow-hidden bg-paper-dim">
           <img

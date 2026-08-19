@@ -19,13 +19,26 @@
   --color-danger: #B5432E;
 }
 
-.dark {
+/* .dark {
   --color-paper: #16181A;
   --color-paper-dim: #1E2124;
   --color-surface: #212426;
   --color-ink: #F2F1EC;
   --color-ink-soft: #A3A59E;
   --color-line: #2C2F31;
+  --color-primary: #4A9C8C;
+  --color-primary-soft: #5CB3A1;
+  --color-accent: #E0A94C;
+  --color-danger: #E0685A;
+} */
+
+.dark {
+  --color-paper: #14161A;
+  --color-paper-dim: #1B1E22;
+  --color-surface: #24272B;
+  --color-ink: #F2F1EC;
+  --color-ink-soft: #9C9E98;
+  --color-line: #34383C;
   --color-primary: #4A9C8C;
   --color-primary-soft: #5CB3A1;
   --color-accent: #E0A94C;
