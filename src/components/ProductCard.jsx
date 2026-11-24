@@ -12,10 +12,13 @@ export default function ProductCard({ product }) {
       <Link to={`/products/${product.id}`}>
         <div className="relative aspect-[4/5] overflow-hidden bg-paper-dim">
           <img
-            src={product.thumbnail}
-            alt={product.title}
-            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-          />
+  src={product.thumbnail}
+  alt={product.title}
+  onError={(e) => {
+    e.currentTarget.style.display = "none";
+  }}
+  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+/>
           <button
             onClick={(e) => {
               e.preventDefault();
